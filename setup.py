@@ -1,9 +1,9 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 
 from distutils.core import setup
 
-setup(name="listutils",
-      version="1.7.0",
+setup(name="django-listutils",
+      version="1.0.0",
       description="Django template tag to split list into sub lists.",
       packages=["listutils"],
       author="Iury O. G. Figueiredo",
@@ -12,6 +12,7 @@ setup(name="listutils",
       download_url='https://github.com/iogf/listutils/releases',
       keywords=['django', 'listutils', 'split', 'lists'],
       classifiers=[])
+
 
 
 
